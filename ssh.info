@@ -1,0 +1,62 @@
+ref a: http://geekjacking.com/2008/07/24/github-push-error/
+ref b:  * i did not use this one but it seems to contain useful details
+     http://www.question-defense.com/2009/02/04/add-a-ssh-key-to-your-github-account-for-a-linux-server/
+
+
+ref c:  this one looks interesting as well...
+http://devlicio.us/blogs/sergio_pereira/archive/2009/05/06/git-ssh-putty-github-unfuddle-the-kitchen-sink.aspx
+
+changed this file...
+
+
+  501  ls ~
+  502  ls 
+  503  ls ~/.ssh/config
+  504  ls ~/.ssh
+  505  cat ~/.ssh/id_rsa.pub
+  
+  507* touch ~/.ssh/confiG
+  508  vi ~/.ssh/config
+ 
+
+  511  mkdir sshsave01
+  512  mv id_rsa id_rsa.pub sshsave01
+
+
+
+  516  vi config
+
+
+  523  chmod --help
+  524  ls --help
+  525  ls -l .ssh
+  526  chmod 700 ~/.ssh
+
+  536  chmod 600 ~/.ssh/*
+  
+  551  cd /c
+  552  cd PuTTy/
+  553  ls
+  554  puttygen
+  #  create public and private keys
+  #  save to ~/.ssh
+  # send to github
+  # 
+  #passphrase is blank...
+
+  # ensure PageAnt is running
+  # ensure private key is loaded in PageAnt
+  555  cd
+  556  cd /c
+  557  cd Program\ Files/git
+  558  ls
+  559  cd di3
+  560  git status
+  561  git help push
+  # this is the one which worked...
+  562  git push
+  563  ls
+  564  cat xx.txt
+  565  touch ssh.info
+  566  hist >>ssh.info
+  567  history >>ssh.info
